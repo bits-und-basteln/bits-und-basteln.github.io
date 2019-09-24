@@ -1,0 +1,24 @@
+{% if page.author.title and page.author.description and page.author.title_url %}
+<div class="col-md-4 col-md-offset-1 hidden-xs hidden-sm">
+    <div class="align-container" data-mh>
+        <div class="align-inner">
+            <div class="hero-subheader__author">
+                <p class="hero-subheader__author-title">
+                    {% if button.external_url == true %}
+                    <a href="{{ page.author.title_url }}" class="btn btn--read-more">
+                        {{ page.author.title }}
+                        <i class="icon icon--arrow-right"></i>
+                    </a>
+                    {% else %}
+                    <a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.author.title_url }}" class="btn btn--read-more">
+                        {{ page.author.title }}
+                        <i class="icon icon--arrow-right"></i>
+                    </a>
+                    {% endif %}
+                </p><!-- /.hero-subheader__author-title -->
+                <p>{{ page.author.description }}</p>
+            </div><!-- /.hero-subheader__author -->
+        </div><!-- /.align-inner -->
+    </div><!-- /.align-container -->
+</div><!-- /.col -->
+{% endif %}

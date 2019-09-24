@@ -3,6 +3,40 @@
  */
 
 /* ----- General ----- */
+.default-hero-subheader {
+	color: $color-grey;
+	background-color: $color-theme-blue;
+	height: $subheader-height;
+
+	@media (min-width: $screen-sm-min) {
+	}
+
+	.btn {
+		margin-right: .9375rem;
+	}
+
+	.btn--github,
+	.btn--w-arrow-down {
+		@extend .btn--dark;
+	}
+
+	.site-header + & {
+
+		@media (min-width: $screen-sm-min) {
+		}
+	}
+
+	.title-container {
+		height: $subheader-height;
+		background-color: rgba(0, 0, 0, 0.7);
+	}
+
+	.container {
+		height: $subheader-height;
+	}
+}
+
+
 .hero-subheader {
 	color: $color-grey;
 	background-color: $color-theme-blue;
@@ -27,6 +61,11 @@
 		@media (min-width: $screen-sm-min) {
 			padding: 15rem 0 (10.3125rem - 1.25rem) 0;
 		}
+	}
+
+	.title-container {
+			padding: 9rem 0 0 1rem;
+			background-color: rgba(0, 0, 0, 0.7);
 	}
 }
 
