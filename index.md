@@ -24,8 +24,8 @@ author:
 
 # Grid navigation
 grid_navigation:
-    - title: Grid navigation
+    - title: LED-Matrizen
       excerpt: Section description
       cta: Read more
-      url: '#'
+      url: 'pages/led-matrices/get-started'
 ---

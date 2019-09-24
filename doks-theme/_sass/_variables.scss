@@ -7,8 +7,8 @@
 $color-white: #fff !default;
 $color-black: #000 !default;
 $color-dark: #333 !default;
-$color-dark-blue: #253951 !default;
-$color-yellow: #f6d000 !default;
+$color-grey: #dddddd !default;
+$color-yellow: #e5ff00 !default;
 
 // Base
 $color-h2-border: #dadada !default;
@@ -26,7 +26,8 @@ $color-pre: #f8f8f2 !default;
 $color-pre-border: #3c4654 !default;
 
 // Section
-$color-section-grey: #f5f5f5 !default;
+$color-section-grey: #333333 !default;
+$color-section-background: #444444 !default;
 
 // Callouts
 $color-callout: #f9f9f9 !default;
@@ -36,14 +37,16 @@ $color-callout-warning: #fffae9 !default;
 $color-callout-danger: #ffedeb !default;
 
 // Footer
-$color-footer-bg: #f5f5f5 !default;
+$color-footer-bg: #001429 !default;
 $color-footer-copyright: #bdbdbd !default;
 
 // Social list
 $color-social-item: #bdbdbd !default;
 
+$color-background: #3F1F1F !default;
+
 // Themes
-$color-theme-green: #F0FAE6 !default;
+$color-theme-green: #333333 !default;
 $color-theme-blue: #E8F2FC !default;
 $color-theme-purple: #FDE8F8 !default;
 $color-theme-red: #FFECE6 !default;
