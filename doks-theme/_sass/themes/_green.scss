@@ -28,6 +28,9 @@
 	.section--darker-theme-color-bg {
 		background-color: darken($color-theme-green, 3%);
 	}
+	.section {
+		margin-top:7px;
+	}
 }
 
 /* ----- Page nav ----- */
