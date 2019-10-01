@@ -5,15 +5,15 @@ keywords:
 
 # Hero section
 title: Bits & Basteln
-description: Project description
+description: "<p>Coden, Basteln, Kreatives in Berlin Moabit.</p><p>Was musst du können um dabei zu sein? Gar nichts, einfach <a href='/pages/info/when-and-where'><b>mitmachen</b></a></p>"
 hero_image_url: /pages/led-matrices/rainbow.jpg
 buttons:
-    - content: Button
-      url: '#'
+    - content: Wann und Wo?
+      url: '/pages/info/when-and-where'
       external_url: false
     - icon: github
-      content: Button with icon
-      url: '#'
+      content: Unser Code-Repo
+      url: 'https://github.com/mmc-coding-school'
       external_url: true
 
 # Author box

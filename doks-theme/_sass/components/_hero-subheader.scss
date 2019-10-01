@@ -4,12 +4,13 @@
 
 /* ----- General ----- */
 .hero-subheader {
+	min-height: 670px;
 	color: $color-grey;
 	background-color: $color-theme-blue;
-	height: $subheader-height;
-	box-shadow: 0 2px 2px $color-black;
+	padding: 3.75rem 0 (4.6875rem - 1.25rem) 0;
 
 	@media (min-width: $screen-sm-min) {
+		padding: 9.375rem 0 (10.3125rem - 1.25rem) 0;
 	}
 
 	.btn {
@@ -22,21 +23,15 @@
 	}
 
 	.site-header + & {
+		padding: 9.375rem 0 (4.6875rem - 1.25rem) 0;
 
 		@media (min-width: $screen-sm-min) {
+			padding: 15rem 0 (10.3125rem - 1.25rem) 0;
 		}
 	}
 
-	.title-container {
-		background-color: rgba(0, 0, 0, 0.4);
-	}
-
-	.align-container {
-		height: $subheader-height;
-	}
-
 	.container {
-		height: $subheader-height;
+		background-color: rgba(0, 0, 0, 0.7);
 	}
 }
 
