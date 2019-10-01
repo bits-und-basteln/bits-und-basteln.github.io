@@ -44,6 +44,8 @@
 .home-hero-subheader {
 	color: $color-grey;
 	background-color: $color-theme-blue;
+	background-image: url("/index-header.jpg");
+	background-size: cover;
 	padding: 3.75rem 0 (4.6875rem - 1.25rem) 0;
 
 	@media (min-width: $screen-sm-min) {
@@ -67,8 +69,7 @@
 		}
 	}
 
-	.title-container {
-			padding: 9rem 0 0 1rem;
+	.container {
 			background-color: rgba(0, 0, 0, 0.7);
 	}
 }

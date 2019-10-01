@@ -4,8 +4,9 @@ layout: homepage
 keywords:
 
 # Hero section
-title: Project name
+title: Bits & Basteln
 description: Project description
+hero_image_url: /pages/led-matrices/rainbow.jpg
 buttons:
     - content: Button
       url: '#'
@@ -25,7 +26,7 @@ author:
 
 # Grid navigation
 grid_navigation:
-    - title: LED-Matrizen
+    - title: Bits & Lights
       excerpt: Section description
       cta: Read more
       url: 'pages/led-matrices/get-started'
