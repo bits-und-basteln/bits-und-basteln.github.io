@@ -13,7 +13,7 @@ buttons:
       external_url: false
     - icon: github
       content: Unser Code-Repo
-      url: 'https://github.com/mmc-coding-school'
+      url: 'https://github.com/bits-und-basteln/'
       external_url: true
 
 # Author box
