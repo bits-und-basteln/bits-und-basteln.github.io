@@ -6,15 +6,15 @@ comments: false
 
 # Hero section
 title: Wann und Wo?
-description: Page description
-hero_image_url: /pages/info/beusselstrasse-header.jpg
+description: "<p>Jeden Mittwoch ab 20 Uhr in der <a href='https://neuenachbarschaft.de/'>Neuen Nachbarschaft Moabit</a>.</p>"
+hero_image_url: /pages/info/neue-nachbarschaft-header.jpg
 
 # Author box
 author:
     title: Christoph Burnicki
-    title_url: 
+    title_url:
     external_url: true
-    description: 
+    description:
 
 # Micro navigation
 micro_nav: true

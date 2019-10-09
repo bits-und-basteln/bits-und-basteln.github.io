@@ -23,7 +23,7 @@ doks:
             - network_name: facebook
               profile_url: 'https://www.facebook.com/neuenachbarschaftmoabit/'
             - network_name: github
-              profile_url: 'https://github.com/mmc-coding-school'
+              profile_url: 'https://github.com/bits-und-basteln/'
     google_analytics:
         tracking_code: # Add your Google Analytics tracking code to activate Google Analytics
     comments:
