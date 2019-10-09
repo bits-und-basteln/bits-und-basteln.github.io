@@ -28,6 +28,6 @@ author:
 grid_navigation:
     - title: Bits & Lights
       excerpt: Section description
-      cta: Read more
-      url: 'pages/led-matrices/get-started'
+      cta: Mehr lesen
+      url: 'pages/documentation/bits-and-lights/intro/intro'
 ---

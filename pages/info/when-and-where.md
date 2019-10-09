@@ -7,7 +7,7 @@ comments: false
 # Hero section
 title: Wann und Wo?
 description: Page description
-hero_image_url: /pages/info/neue-nachbarschaft-header.jpg
+hero_image_url: /pages/info/beusselstrasse-header.jpg
 
 # Author box
 author:

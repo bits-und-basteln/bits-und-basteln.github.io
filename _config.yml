@@ -18,7 +18,7 @@ doks:
             logo:
                 text: Bits & Basteln
                 image:
-            copyright: Copyright &copy; 2017. - Project name <br>All rights reserved.
+            copyright: Copyright &copy; 2019. - Neue Nachbarschaft Moabit e.V. <br>All rights reserved.
         social_list:
             - network_name: facebook
               profile_url: 'https://www.facebook.com/neuenachbarschaftmoabit/'

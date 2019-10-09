@@ -5,9 +5,9 @@ keywords:
 comments: false
 
 # Hero section
-title: LED-Matrizen
+title: Bits & Lights
 description: Page description
-hero_image_url: /pages/led-matrices/rainbow.jpg
+hero_image_url: /pages/documentation/bits-and-lights/intro/rainbow.jpg
 
 # Author box
 author:
@@ -32,6 +32,8 @@ page_nav:
 # Los geht's
 
 ## Hardware Setup
+
+![alt text](/pages/documentation/bits-and-lights/intro/arduino-led-hardware-setup.jpg "Logo Title Text 1")
 
 ```c
 void showMonochromeArray(bool leds[16][16], int r, int g, int b) {
