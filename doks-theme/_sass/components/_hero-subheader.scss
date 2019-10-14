@@ -1,46 +1,9 @@
-/**
- * Hero subheader (components/_hero-subheader.scss)
- */
-
-/* ----- General ----- */
 .hero-subheader {
-	min-height: 670px;
-	color: $color-grey;
-	background-color: $color-theme-blue;
-	padding: 3.75rem 0 (4.6875rem - 1.25rem) 0;
-
-	@media (min-width: $screen-sm-min) {
-		padding: 9.375rem 0 (10.3125rem - 1.25rem) 0;
-	}
-
-	.btn {
-		margin-right: .9375rem;
-	}
-
-	.btn--github,
-	.btn--w-arrow-down {
-		@extend .btn--dark;
-	}
-
-	.site-header + & {
-		padding: 9.375rem 0 (4.6875rem - 1.25rem) 0;
-
-		@media (min-width: $screen-sm-min) {
-			padding: 15rem 0 (10.3125rem - 1.25rem) 0;
-		}
-	}
-
-	.container {
-		background-color: rgba(0, 0, 0, 0.7);
-	}
-}
-
-
-.home-hero-subheader {
 	color: $color-grey;
 	background-color: $color-theme-blue;
 	background-image: url("/index-header.jpg");
 	background-size: cover;
+	background-position: center;
 	height: 68vh;
 	max-height: 667px;
 	padding-top: 10vh;
