@@ -4,7 +4,7 @@
 		{% include site-head.html %}
 	</head>
 	<body class="{{ site.doks.color_theme }}" data-spy="scroll" data-target=".js-scrollspy">
-		<div class="hero-subheader" {% if page.hero_image_url %} style="background-image: url('{{ page.hero_image_url }}'); background-size: cover;"{% endif %}>
+		<div class="home-hero-subheader" {% if page.hero_image_url %} style="background-image: url('{{ page.hero_image_url }}'); background-size: cover;"{% endif %}>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8">
@@ -18,7 +18,7 @@
 				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</div><!-- /.hero-subheader -->
-		<div class="section">
+		<div class="section section--darker-theme-color-bg">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8">
@@ -35,7 +35,7 @@
 			</div><!-- /.container -->
 		</div><!-- /.section -->
 		{% if jekyll.environment == "production" and page.comments == true and site.doks.comments.disqus_forum_shortname %}
-			<div class="section section--grey">
+			<div class="section section--darker-theme-color-bg">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8">

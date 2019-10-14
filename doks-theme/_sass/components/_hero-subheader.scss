@@ -41,10 +41,11 @@
 	background-color: $color-theme-blue;
 	background-image: url("/index-header.jpg");
 	background-size: cover;
-	padding: 3.75rem 0 (4.6875rem - 1.25rem) 0;
+	height: 68vh;
+	max-height: 667px;
+	padding-top: 10vh;
 
 	@media (min-width: $screen-sm-min) {
-		padding: 9.375rem 0 (10.3125rem - 1.25rem) 0;
 	}
 
 	.btn {
@@ -71,7 +72,6 @@
 
 .hero-subheader--before-out {
 	@media (min-width: $screen-sm-min) {
-		padding: 9.375rem 0 (15.3125rem - 1.25rem) 0;
 	}
 }
 
