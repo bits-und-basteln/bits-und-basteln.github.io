@@ -6,7 +6,10 @@
 	background-position: center;
 	height: 68vh;
 	max-height: 667px;
-	padding-top: 10vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 
 	@media (min-width: $screen-sm-min) {
 	}
