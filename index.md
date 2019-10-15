@@ -31,4 +31,8 @@ grid_navigation:
       excerpt: LED-Matrizen mit einem Arduino programmieren.
       cta: Hacken
       url: 'pages/documentation/bits-and-lights/intro/intro'
+    - title: Expertenwissen
+      excerpt: Weiterführendes Wissen
+      url: 'pages/insider_knowledge/arduino_progmem'
+      cta: Lesen
 ---
