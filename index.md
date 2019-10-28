@@ -5,7 +5,7 @@ keywords:
 
 # Hero section
 title: Bits & Basteln
-description: "<p>Coden, Basteln, Kreatives in Berlin Moabit.</p><p>Was musst du können um dabei zu sein? Gar nichts, einfach <a href='/pages/info/when-and-where'><b>mitmachen</b></a></p>"
+description: "<p>Coden, Basteln, Kreatives in Berlin Moabit.</p><p>Was musst du können um dabei zu sein? Gar nichts, einfach <b>mitmachen</b></p>"
 hero_image_url: /pages/led-matrices/rainbow.jpg
 buttons:
     - icon: github
@@ -23,7 +23,7 @@ author:
 
 # Grid navigation
 grid_navigation:
-    - title: Wann und Wo?
+    - title: Wann & Wo?
       excerpt: Jeden Mittwoch ab 20 Uhr in der Neuen Nachbarschaft Moabit.
       cta: Finden
       url: 'https://neuenachbarschaft.de/kontakt/'

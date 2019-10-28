@@ -6,27 +6,19 @@ comments: false
 
 # Hero section
 title: Bits & Lights
-description: Page description
+description:
 hero_image_url: /pages/documentation/bits-and-lights/intro/rainbow.jpg
 
 # Author box
 author:
     title: Christoph Burnicki
-    title_url: 
+    title_url:
     external_url: true
-    description: 
+    description:
 
 # Micro navigation
 micro_nav: true
 
-# Page navigation
-page_nav:
-    prev:
-        content: Previous page
-        url: '#'
-    next:
-        content: Next page
-        url: '#'
 ---
 
 # Los geht's
