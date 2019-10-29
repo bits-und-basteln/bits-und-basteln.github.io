@@ -29,9 +29,21 @@ page_nav:
 
 Um Licht auf unsere LED-Matrix zu bekommen, brauchen wir neben der Matrix noch einen Arduino. Der Arduino ist ein kleiner Computer (Microcontroller), auf den wir nachher unseren Code laden. Der Arduino führt unser Programm aus und steuert damit die Lichter auf der LED-Matrix.
 
+## Die Hardware
+
 <a href="/pages/documentation/bits-and-lights/intro/arduino-led-hardware-setup.jpg" target="_blank"><img src="/pages/documentation/bits-and-lights/intro/arduino-led-hardware-setup.jpg" class="inline" alt="Der Aufbau mit Arduino und LED-Matrix"/></a>In diesem Bild siehst, du, wie der Arduino und die LED-Matrix zusammengesteckt und mit dem Netzteil verbunden werden.
 
 **Wichtig: Bitte immer erst alles ordentlich zusammenstecken, bevor du das Netzteil in an den Strom anschliesst!**
+
+## Der Editor (Arduino Create)
+
+Normalerweise kann ein Programm in jedem beliebigen Texteditor geschrieben werden. Das ist manchmal allerdings etwas umständlich, deshalb gibt es extra für das Schreiben von Code ausgelegte Editoren. Einen solchen stellt auch das Arduino-Team für uns bereit. Damit lässt sich der Code sehr einfach auf den Arduino laden. Außerdem läuft der Editor online im Browser, so dass du nur ein Browser-Plugin installieren musst um loszulegen.
+
+Den Web-Editor findest du unter [https://create.arduino.cc](https://create.arduino.cc/) -> *Arduino Web Editor*. 
+
+Hier kannst du entweder einen neuen Account erstellen, oder dich mit deinem Google-Account anmelden.
+
+[Aktuelle Version der Bits&Basteln Code Library](/downloads/lib_bub.zip)
 
 ```c
 void showMonochromeArray(bool leds[16][16], int r, int g, int b) {
