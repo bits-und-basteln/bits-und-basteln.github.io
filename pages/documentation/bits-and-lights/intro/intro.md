@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Bits & Lights
-description: Page description
+description: Wir fangen ganz einfach an und programmieren ein bisschen Licht auf eine LED-Matrix. Im Hintergrund haben wir ein bisschen was vorbereitet, sodass du mit ein paar ganz einfachen Zeilen Code deine ersten Bilder und Licht-Animationen auf deiner LED-Matrix siehst.
 hero_image_url: /pages/documentation/bits-and-lights/intro/rainbow.jpg
 
 # Author box
@@ -21,19 +21,17 @@ micro_nav: true
 
 # Page navigation
 page_nav:
-    prev:
-        content: Previous page
-        url: '#'
-    next:
-        content: Next page
-        url: '#'
 ---
 
 # Los geht's
 
-## Hardware Setup
+## Was wir machen wollen
 
-![alt text](/pages/documentation/bits-and-lights/intro/arduino-led-hardware-setup.jpg "Logo Title Text 1")
+Um Licht auf unsere LED-Matrix zu bekommen, brauchen wir neben der Matrix noch einen Arduino. Der Arduino ist ein kleiner Computer (Microcontroller), auf den wir nachher unseren Code laden. Der Arduino führt unser Programm aus und steuert damit die Lichter auf der LED-Matrix.
+
+<a href="/pages/documentation/bits-and-lights/intro/arduino-led-hardware-setup.jpg" target="_blank"><img src="/pages/documentation/bits-and-lights/intro/arduino-led-hardware-setup.jpg" class="inline" alt="Der Aufbau mit Arduino und LED-Matrix"/></a>In diesem Bild siehst, du, wie der Arduino und die LED-Matrix zusammengesteckt und mit dem Netzteil verbunden werden.
+
+**Wichtig: Bitte immer erst alles ordentlich zusammenstecken, bevor du das Netzteil in an den Strom anschliesst!**
 
 ```c
 void showMonochromeArray(bool leds[16][16], int r, int g, int b) {
