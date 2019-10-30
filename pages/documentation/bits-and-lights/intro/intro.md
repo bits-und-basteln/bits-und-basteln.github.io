@@ -33,7 +33,7 @@ Den Web-Editor findest du unter [https://create.arduino.cc](https://create.ardui
 
 Hier kannst du entweder einen neuen Account erstellen, oder dich mit deinem Google-Account anmelden.
 
-[Aktuelle Version der Bits&Basteln Code Library](/downloads/lib_bub.zip)
+[Aktuelle Version der Bits&Basteln Code Library](/downloads/BitsUndBasteln.zip)
 
 **Lib.h**
 ```c
