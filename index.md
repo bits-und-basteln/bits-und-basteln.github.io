@@ -24,7 +24,7 @@ author:
 # Grid navigation
 grid_navigation:
     - title: Wann & Wo?
-      excerpt: Jeden Mittwoch ab 20 Uhr in der Neuen Nachbarschaft Moabit.
+      excerpt: Jeden Mittwoch ab 20 Uhr in der Neuen Nachbarschaft Moabit. <br><br>Um in unsere Mailing-Liste aufgenommen zu werden und Infos zu erhalten, schreib uns einfach kurz eine Mail an bitsundbasteln@gmail.com
       cta: Finden
       url: 'https://neuenachbarschaft.de/kontakt/'
     - title: Bits & Lights

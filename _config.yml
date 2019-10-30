@@ -2,6 +2,7 @@
 doks:
     baseurl:
     color_theme: green
+    contact_mail: bitsundbasteln@gmail.com
     header:
         logo:
             text: Bits & Basteln
