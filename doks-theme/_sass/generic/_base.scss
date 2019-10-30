@@ -56,6 +56,7 @@ h6, .h6 {
 h1, .h1 {
 	font-size: $font-size-h1;
 	font-weight: 700;
+	clear: both;
 }
 
 h2, .h2 {
@@ -63,23 +64,28 @@ h2, .h2 {
 	font-weight: 700;
 	border-bottom: 1px solid $color-h2-border;
 	padding-bottom: .5rem;
+	clear: both;
 }
 
 h3, .h3 {
 	font-size: $font-size-h3;
 	font-weight: 500;
+	clear: both;
 }
 
 h4, .h4 {
 	font-size: $font-size-h4;
+	clear: both;
 }
 
 h5, .h5 {
 	font-size: $font-size-h5;
+	clear: both;
 }
 
 h6, .h6 {
 	font-size: $font-size-h6;
+	clear: both;
 }
 
 /* ----- Inline elements ----- */
@@ -112,6 +118,7 @@ img {
 img.inline {
 	width: 100%;
 	margin-bottom: 1.25rem;
+	float: left;
 
 	@media (min-width: $screen-sm-min) {
 		max-width: 33%;
