@@ -35,27 +35,44 @@ Hier kannst du entweder einen neuen Account erstellen, oder dich mit deinem Goog
 
 [Aktuelle Version der Bits&Basteln Code Library](/downloads/lib_bub.zip)
 
+**Lib.h**
 ```c
-void showMonochromeArray(bool leds[16][16], int r, int g, int b) {
-  for (int i = 0; i < 16; i++) {
-    for (int j = 0; j < 16; j++) {
-      if (leds[i][j]) {
-        light(i, j, r, g, b);
-      } else {
-        light(i, j, 0, 0, 0);
-      }
-    }
-  }
-  pixels.show();
+#ifndef Lib_h
+#define Lib_h
+
+#include <BitsUndBasteln.h>
+
+Canvas canvas;
+Ghost ghost;
+Hat hat;
+
+void drawGhost(int x, int y, long color) {
+    canvas.draw(&ghost, x, y, color);
 }
 
-void light(int row, int column, int r, int g, int b) {
-  int i;
-  if (row%2 == 0) {
-    i = (row * 16) + (15 - column);
-  } else {
-    i = (row * 16) + column;
-  }
-  pixels.setPixelColor(i, pixels.Color(r ,g, b));
+void drawHat(int x, int y, long color) {
+    canvas.draw(&hat, x, y, color);
 }
+
+#endif
+```
+
+**intro.ino**
+```c
+#include "Lib.h"
+
+void setup(){};
+
+long GHOST_COLOR = WHITE;
+long HAT_COLOR = MAGENTA;
+long EYE_COLOR = 0xcc0000;
+
+void loop(){
+    canvas.clear();
+    drawGhost(5, 6, GHOST_COLOR);
+    drawHat(4, 4, HAT_COLOR);
+    canvas.show();
+    delay(500);
+};
+
 ```
