@@ -23,7 +23,7 @@ Um Licht auf unsere LED-Matrix zu bekommen, brauchen wir neben der Matrix noch e
 
 <a href="/pages/documentation/bits-and-lights/intro/arduino-led-hardware-setup.jpg" target="_blank"><img src="/pages/documentation/bits-and-lights/intro/arduino-led-hardware-setup.jpg" class="inline" alt="Der Aufbau mit Arduino und LED-Matrix"/></a>In diesem Bild siehst, du, wie der Arduino und die LED-Matrix zusammengesteckt und mit dem Netzteil verbunden werden.
 
-**Wichtig: Bitte immer erst alles ordentlich zusammenstecken, bevor du das Netzteil in an den Strom anschliesst!**
+**Wichtig: Bitte immer erst alles ordentlich zusammenstecken, bevor du das Netzteil an den Strom anschliesst!**
 
 ## Der Editor (Arduino Create)
 
