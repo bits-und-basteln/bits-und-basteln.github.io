@@ -104,3 +104,38 @@ Sehen wir uns mal an, was die einzelnen Zeilen des Code-Beispiels oben bedeuten.
 Die erste Zeile, `canvas.clear()`, schaltet alle LEDs aus. Das ist in gewisser Weise das Gegenteil von `canvas.show()`. In den nächsten drei Zeilen werden Dinge auf die LED-Matrix gezeichnet: Ein einzelner Pixel an der Stelle `(1,1)` in der Farbe `WHITE`, ein Geist an der Stelle `(5,6)` in der Farbe `GHOST_COLOR` und ein Hut an der Stelle `(4,4)` in der Farbe `HAT_COLOR`.
 
 Im Anschluss wird `canvas.show()` aufgerufen um das gezeichnete anzuzeigen. Der letzte Befehl, `delay(500)`, lässt das Programm 500 Millisekunden (= eine halbe Sekunde) warten, bevor die Schleife wieder oben im `loop()` anfängt und die Abfolge der Befehle wiederholt.
+
+## Bringen wir ein bisschen Bewegung ins Bild
+
+Um ein bisschen Bewegung in die Sache zu bringen, können wir den Code so ändern wie unten:
+
+**intro.ino**
+```c
+#include "Lib.h"
+
+void setup(){};
+
+long GHOST_COLOR = WHITE;
+long HAT_COLOR = MAGENTA;
+long EYE_COLOR = 0xcc0000;
+
+void loop(){
+    canvas.clear();
+    canvas.pixel(1, 1, WHITE);
+    drawGhost(5, 6, GHOST_COLOR);
+    drawHat(4, 3, HAT_COLOR);
+    canvas.show();
+    delay(500);
+
+    canvas.clear();
+    canvas.pixel(1, 1, WHITE);
+    drawGhost(5, 6, GHOST_COLOR);
+    drawHat(4, 4, HAT_COLOR);
+    canvas.show();
+    delay(500);
+};
+```
+
+Im Prinzip steht der Block zwischen `canvas.clear()` und `delay(500)` jetzt einfach zweimal im `loop`. Der kleine Unterschied: Im oberen Block steht in `drawHat(4, 3, HAT_COLOR)` eine **3** an Stelle der y-Koordinate. Im unteren Befehl `drawHat(4, 4, HAT_COLOR)` steht dort eine **4** für die y-Koordinate. Was bedeutet das?
+
+Das ganze Bild mit dem Geist und dem Hut wird jetzt zweimal gezeigt, allerdings ist beim ersten Mal der Hut ein bisschen höher! An dieser Stelle macht es Sinn, einfach mal ein paar Befehle zu kopieren, neu anzuordnen, Koordinaten und Farben zu verändern um ein Gefühl dafür zu bekommen, was in diesem kleinen Programm vor sich geht.
