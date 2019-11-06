@@ -66,7 +66,7 @@ void drawHat(int x, int y, long color) {
 
 # Los geht's mit einem Geist mit Hut
 
-Als letzten Teil der Vorbereitung, kopiere den untenstehenden Code in deinen Sketch-Tab. Auch hier ist es wichtig, dass du den existierenden Code im Tab vorher löscht.
+Als letzten Teil der Vorbereitung, kopiere den untenstehenden Code in deinen Sketch-Tab. Auch hier ist es wichtig, dass du den existierenden Code im Tab vorher löschst.
 
 **intro.ino**
 ```c
@@ -91,7 +91,7 @@ void loop(){
 
 ## Was bedeutet das?
 
-Am Ende des Tages sollen Lichter auf der LED-Matrix in verschiedenen Farben leuchten. Dafür müssen wir dem Arduino zunächst sagen, welche Pixel in welchen Farben leuchten sollen. Jeder Pixel auf der LED-Matrix hat eine X- und eine Y-Koordinate. Um einen einzelnen Pixel an der Position `x=2, y=2` weiß leuchten zu lassen, wird der Pixel z.B. mit dem Befehl `canvas.pixel(2, 2, WHITE);` angesteuert.
+Am Ende des Tages sollen Lichter auf der LED-Matrix in verschiedenen Farben leuchten. Dafür müssen wir dem Arduino zunächst sagen, welche Pixel in welchen Farben leuchten sollen. Jeder Pixel auf der LED-Matrix hat eine X- und eine Y-Koordinate. Um einen einzelnen Pixel an der Position `x=2, y=2` weiß leuchten zu lassen, wird der Pixel z.B. mit dem Befehl `canvas.pixel(2, 2, WHITE)` angesteuert.
 
 Um etwas auf der LED-Matrix anzuzeigen sind allerdings zwei Schritte nötig:
 
@@ -101,6 +101,6 @@ Um etwas auf der LED-Matrix anzuzeigen sind allerdings zwei Schritte nötig:
 
 Sehen wir uns mal an, was die einzelnen Zeilen des Code-Beispiels oben bedeuten. Interessant ist erstmal nur, was auf deinem Sketch in dem `loop(){}`-Block steht. Alles, was in den Klammern hinter `loop(){` steht wird von oben nach unten in einer Schleife immer wieder ausgeführt.
 
-Die erste Zeile, `canvas.clear();`, schaltet alle LEDs aus. Das ist in gewisser Weise das Gegenteil von `canvas.show()`. In den nächsten drei Zeilen werden Dinge auf die LED-Matrix gezeichnet: Ein einzelner Pixel an der Stelle `(1,1)` in der Farbe `WHITE`, ein Geist an der Stelle `(5,6)` in der Farbe `GHOST_COLOR` und ein Hut an der Stelle `(4,4)` in der Farbe `HAT_COLOR`.
+Die erste Zeile, `canvas.clear()`, schaltet alle LEDs aus. Das ist in gewisser Weise das Gegenteil von `canvas.show()`. In den nächsten drei Zeilen werden Dinge auf die LED-Matrix gezeichnet: Ein einzelner Pixel an der Stelle `(1,1)` in der Farbe `WHITE`, ein Geist an der Stelle `(5,6)` in der Farbe `GHOST_COLOR` und ein Hut an der Stelle `(4,4)` in der Farbe `HAT_COLOR`.
 
-Im Anschluss wird `canvas.show();` aufgerufen um das gezeichnete anzuzeigen. Der letzte Befehl, `delay(500)`, lässt das Programm 500 Millisekunden (= eine halbe Sekunde) warten, bevor die Schleife wieder oben im `loop()` anfängt und die Abfolge der Befehle wiederholt.
+Im Anschluss wird `canvas.show()` aufgerufen um das gezeichnete anzuzeigen. Der letzte Befehl, `delay(500)`, lässt das Programm 500 Millisekunden (= eine halbe Sekunde) warten, bevor die Schleife wieder oben im `loop()` anfängt und die Abfolge der Befehle wiederholt.
